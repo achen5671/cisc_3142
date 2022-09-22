@@ -1,7 +1,11 @@
-# TODO: Change make all -> make lab1
-all:
-	g++ -o ./outputs/assignment_1_output.out ./assignment_1/hello_world.cpp
 .SILENT:
+# TODO: make command to run logs for assignments
+all:
+	make lab1
+	make lab2
+	make lab3
+lab1:
+	g++ -o ./outputs/assignment_1_output.out ./assignment_1/hello_world.cpp
 lab2:
 	echo Running exercise 1.5
 	g++ -o ./outputs/break_operand ./assignment_2/break_operand.cpp
@@ -20,6 +24,8 @@ lab2:
 	g++ -o ./outputs/while_loop_range ./assignment_2/while_loop_range.cpp
 	./outputs/while_loop_range
 
+lab3:
+	cat ./assignment_3/chap_2_exercises.md
 # Run clean to clean output folder
 clean:
 	rm ./outputs/*
