@@ -1,4 +1,5 @@
 .SILENT:
+# TODO: make command to run logs for assignments
 all:
 	make lab1
 	make lab2

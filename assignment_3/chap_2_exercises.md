@@ -3,23 +3,23 @@
 > and short? Between an unsigned and a signed type? Between a float and
 > a double?
 
-answer:
-int => integer of 16 bits
-long => long integer of 32 bits
-long long => long long, which means a longer int of 64 bits
-short => short integer of 16 bits (apparently short takes less memory compare to int)
-unsigned type => 32-bit datum that encodes a nonnegative integer in the range [0 to 4294967295]
-signed type =>A signed integer is a 32-bit datum that encodes an integer in the range [-2147483648 to 2147483647]
-float => single precision floating point number, 6 sig digits
-double => double precision floating point, 10 sig digits
+answer:<br/>
+`int` => integer of 16 bits
+`long` => long integer of 32 bits
+`long long` => long long, which means a longer int of 64 bits
+`short` => short integer of 16 bits (apparently short takes less memory compare to int)
+`unsigned type` => 32-bit datum that encodes a nonnegative integer in the range [0 to 255]
+`signed type` =>A signed integer is a 32-bit datum that encodes an integer in the range [-127 to 127]
+`float` => single precision floating point number, 6 sig digits
+`double` => double precision floating point, 10 sig digits
 
 ### 2.2
 > To calculate a mortgage payment, what types would you use
 > for the rate, principal, and payment? Explain why you selected each type.
 
-answer:
+answer:<br/>
 rate => double because of it's precision. If im dealing with money, I will want to be as precise as possible and save that extra $$$.
-principle => 
+principle => floating point because princple is dealing with 2 decimal points.
 payment => floating point because payment will be to the nearest 2 decimal space. We can save memory by using floats
 
 ### 2.3
@@ -36,6 +36,7 @@ std::cout << i - u << std::endl;
 std::cout << u - i << std::endl;
 ```
 
+answer:<br/>
 output:
 ```
 32
@@ -56,8 +57,7 @@ int main()
 int local_int; std::string local_str;
 }
 ```
-0
-14944
+answer: `0` and`14944`
 
 ### 2.12
 > Which, if any, of the following names are invalid?
@@ -80,11 +80,18 @@ int i = 100; int j = i;
 }
 ```
 
-answer: 100
+answer: `100`
 
 ### 2.14
 > Is the following program legal? If so, what values are printed?
+```
+int i = 100, sum = 0;
+for (int i = 0; i != 10; ++i)
+sum += i;
+std::cout << i << " " << sum << std::endl;
+```
 
+answer: `100 45`
 
 ### 2.17
 What does the following code print?
@@ -93,7 +100,7 @@ int i, &ri = i;
 i = 5; ri = 10;
 std::cout << i << " " << ri << std::endl;
 ```
-answer: 10 10
+answer: `10 10`
 
 ### 2.27
 > Which of the following initializations are legal? Explain why.
@@ -105,7 +112,8 @@ answer: 10 10
 > (f) const int &const r2;
 > (g) const int i2 = i, &r = i;
 
-answer:
+answer: <br />
+(c) and (g). Reference (&r) var cannot be changed after it's assign. This means int has to have const. Other options will throw a undeclared error
 
 ### 2.28
 > Explain the following definitions. Identify any that are illegal.
@@ -116,4 +124,11 @@ answer:
 > (e) const int *p;
 
 answer:
+```
+(a) [ILLEGAL] Default int but var is a null. pointer to const cp to i
+(b) [ILLEGAL] Default int but var is a null. pointer to const p2 to a pointer const int p1
+(c) [ILLEGAL] Default int but var is a 0. reference ic to const int ic
+(d) [ILLEGAL] pointer to const p3 to const int
+(e) [LEGAL] pointer to const int which equal to 0
+```
 
