@@ -2,6 +2,7 @@
 > What are the differences between int, long, long long,
 > and short? Between an unsigned and a signed type? Between a float and
 > a double?
+
 int => integer of 16 bits
 long => long integer of 32 bits
 long long => long long, which means a longer int of 64 bits
