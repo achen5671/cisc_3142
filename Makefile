@@ -1,9 +1,11 @@
 .SILENT:
 # TODO: make command to run logs for assignments
+# TODO: create output folder in assignment folders (?)
 all:
 	make lab1
 	make lab2
 	make lab3
+	make lab4
 lab1:
 	g++ -o ./outputs/assignment_1_output.out ./assignment_1/hello_world.cpp
 lab2:
@@ -26,6 +28,12 @@ lab2:
 
 lab3:
 	cat ./assignment_3/chap_2_exercises.md
+
+lab4:
+	echo Running lab 4...
+	g++ -std=c++14 -o ./outputs/to_upper ./assignment_4/to_upper.cpp && ./outputs/to_upper
+
+
 # Run clean to clean output folder
 clean:
 	rm ./outputs/*
