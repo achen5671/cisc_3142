@@ -1,6 +1,6 @@
 .SILENT:
 # TODO: make command to run logs for assignments
-# TODO: create output folder in assignment folders (?)
+# TODO: create individual output folders in each assignment (?)
 all:
 	make lab1
 	make lab2

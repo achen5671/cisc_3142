@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+// NOTE: Program does NOT validate input!
 int main() {
   const double PERCENT = 0.001;      
   double sweetener, mouse, dieter, num_soda;    
