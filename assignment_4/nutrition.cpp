@@ -17,12 +17,13 @@ int main() {
   cin >> dieter;
 
   num_soda = (dieter * (sweetener / mouse)) / (sweetener * PERCENT);
-  cout << "You can drink " << ( ceil(num_soda) - 1 ) << " of diet soda pop without dying.";
+  cout << "You can drink " << ( ceil(num_soda) - 1 ) << " of diet soda pop without dying." << endl;;
 
   cout << "Continue (y/n)? ";
   cin >> cont;
 
   } while (tolower(cont) == 'y');
 
+  cout << "soda is bad for you!" << endl;
 	return 0;
 }
