@@ -8,6 +8,7 @@ all:
 	make lab4
 lab1:
 	g++ -o ./outputs/assignment_1_output.out ./assignment_1/hello_world.cpp
+
 lab2:
 	echo Running exercise 1.5
 	g++ -o ./outputs/break_operand ./assignment_2/break_operand.cpp

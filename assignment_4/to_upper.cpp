@@ -10,7 +10,7 @@ int main() {
   vector<string> arry = {};
   int string_count = 8;
 
-  cout << "Enter 8 strings" << endl;
+  cout << "Enter" << string_count << "strings" << endl;
   while (string_count > 0) {
     // Get user string input
     string str;
