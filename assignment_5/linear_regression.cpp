@@ -57,7 +57,7 @@ int main () {
     vector<double> xCoor;
     vector<double> yCoor;
 
-    cout << "How many cooridinate you want to enter? "  << endl;
+    cout << "How many cooridinate you want to enter? ";
     cin >> numCoor;
 
     if (numCoor == 0) {
