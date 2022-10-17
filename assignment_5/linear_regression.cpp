@@ -53,6 +53,11 @@ int main () {
     cout << "How many cooridinate you want to enter? "  << endl;
     cin >> numCoor;
 
+    if (numCoor == 0) {
+        cout << 'end' << endl;
+        return 0;
+    }
+
     // Saves coordinates to vector
     for (int i = 0; i < numCoor; i++) {
         int x, y;
@@ -69,7 +74,7 @@ int main () {
     double slope = findSlope(xCoor, yCoor, deltaX, deltaY, &numerator, &denominator);
     double intercept = deltaY - (slope * deltaX);
 
-    // Calculation is wrong somewhere. TODO: round to 2 decimal for readability
+    // Looks like calculation is wrong somewhere? TODO: round to 2 decimal for readability
     cout << "Linear model: y=" << std::ceil(intercept * 100.0) / 100.0 << "+" <<  slope << "x" << endl;
 
     return 0;
