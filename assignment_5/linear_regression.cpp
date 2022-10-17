@@ -54,7 +54,7 @@ int main () {
     cin >> numCoor;
 
     if (numCoor == 0) {
-        cout << 'end' << endl;
+        cout << "end" << endl;
         return 0;
     }
 
