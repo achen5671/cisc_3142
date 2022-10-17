@@ -18,7 +18,14 @@ double delta(vector<double> coorList) {
 }
 
 // Too many args!!!
-double findSlope(vector<double> xCoor, vector<double> yCoor, double deltaX, double deltaY, double* numerator, double* denominator) {
+double findSlope(
+    vector<double> xCoor,
+    vector<double> yCoor,
+    double deltaX,
+    double deltaY,
+    double* numerator,
+    double* denominator
+) {
     // TODO: Find delta here maybe? inefficient af but meh
     int res;
     
