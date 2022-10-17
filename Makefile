@@ -74,8 +74,6 @@ lab5:
 
 	printf "\n"
 
-	echo Running linear regression...
-	g++ -std=c++14 -o ./outputs/linear_regression ./assignment_5/linear_regression.cpp && ./outputs/linear_regression
 
 # Run clean to clean output folder
 clean:
