@@ -6,6 +6,7 @@ all:
 	make lab2
 	make lab3
 	make lab4
+	make lab5
 lab1:
 	g++ -o ./outputs/assignment_1_output.out ./assignment_1/hello_world.cpp
 
@@ -54,6 +55,27 @@ lab4:
 
 	echo Exercise nutrition.cpp
 	g++ -std=c++14 -o ./outputs/nutrition ./assignment_4/nutrition.cpp && ./outputs/nutrition
+
+lab5:
+	echo Running lab 5...
+
+	echo Textbook Exercises...
+	cat ./assignment_5/exercises.md
+
+	printf "\n"
+
+	echo Running sum of digits...
+	g++ -o ./outputs/sum_of_digits ./assignment_5/sum_of_digits.cpp && ./outputs/sum_of_digits
+
+	printf "\n"
+
+	echo Running Find prime numbers...
+	g++ -o ./outputs/prime_number ./assignment_5/prime_number.cpp && ./outputs/prime_number
+
+	printf "\n"
+
+	echo Running linear regression...
+	g++ -o ./outputs/linear_regression ./assignment_5/linear_regression.cpp && ./outputs/linear_regression
 
 # Run clean to clean output folder
 clean:

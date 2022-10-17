@@ -13,6 +13,9 @@ C++ Paradigm with Prof. Chuang
 **Assingment #4** <br />
 [Dropbox instruction here!](https://www.dropbox.com/s/2v127p4rjfs6r1l/CISC%203142%20Class%20Exercise%204.docx?dl=0)
 
+**Assingment #5** <br />
+[Dropbox instruction here!](https://www.dropbox.com/s/nopf974elxm76tv/CISC%203142%20Class%20Exercise%205.docx?dl=0)
+
 <!-- TOOD -->
 <!-- Add description for what each lab is doing -->
 | Command | Description |
