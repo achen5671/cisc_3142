@@ -77,6 +77,15 @@ lab5:
 	echo Running linear regression...
 	g++ -o ./outputs/linear_regression ./assignment_5/linear_regression.cpp && ./outputs/linear_regression
 
+lab7:
+	echo Running lab 7...
+	echo Running main with Rectangle and Sample classes...
+	g++ -o ./outputs/rectangle ./assignment_7/main.cpp && ./outputs/rectangle
+
+	printf "\n"
+	echo Running main...
+	g++ -o ./outputs/pixel ./assignment_7/pixel.cpp && ./outputs/pixel
+
 # Run clean to clean output folder
 clean:
 	rm ./outputs/*
