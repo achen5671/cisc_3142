@@ -16,6 +16,12 @@ C++ Paradigm with Prof. Chuang
 **Assingment #5** <br />
 [Dropbox instruction here!](https://www.dropbox.com/s/nopf974elxm76tv/CISC%203142%20Class%20Exercise%205.docx?dl=0)
 
+**Assignment #6* [OPTIONAL]** <br />
+Move all programs to its own function and have one main method. Main method will prompt user to run each of the program by displaying a menu
+
+**Assingment #7** <br />
+[Dropbox instruction here!](https://www.dropbox.com/s/z46z96g6wxr10jn/CISC%203142%20Class%20Exercise%207.docx?dl=0)
+
 <!-- TOOD -->
 <!-- Add description for what each lab is doing -->
 | Command | Description |
