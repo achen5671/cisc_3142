@@ -22,6 +22,12 @@ Move all programs to its own function and have one main method. Main method will
 **Assingment #7** <br />
 [Dropbox instruction here!](https://www.dropbox.com/s/z46z96g6wxr10jn/CISC%203142%20Class%20Exercise%207.docx?dl=0)
 
+**Assingment #8 [OPTIONAL]** <br />
+[Dropbox instruction here!](https://www.dropbox.com/s/64ihkmr84veey1w/CISC%203142%20Class%20Exercise%208.docx?dl=0)
+
+**Assingment #9** <br />
+[Dropbox instruction here!](https://www.dropbox.com/s/mef2kw7g1c48rck/CISC%203142%20Class%20Exercise%209.docx?dl=0)
+
 <!-- TOOD -->
 <!-- Add description for what each lab is doing -->
 | Command | Description |
