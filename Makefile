@@ -91,6 +91,16 @@ lab7:
 	echo Running main...
 	g++ -o ./outputs/pixel ./assignment_7/pixel.cpp && ./outputs/pixel
 
+	printf "\n"
+
+lab9:
+	echo Running lab 9...
+	echo Running forecast.cpp...
+	g++ -std=c++14 -o ./outputs/forecast ./assignment_9/forecast.cpp && ./outputs/forecast
+
+	echo No outputs on github actions pipeline due to permission in reading in the files
+	printf "\n"
+
 # Run clean to clean output folder
 clean:
 	rm ./outputs/*
