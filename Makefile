@@ -98,6 +98,7 @@ lab9:
 	echo Running forecast.cpp...
 	g++ -std=c++14 -o ./outputs/forecast ./assignment_9/forecast.cpp && ./outputs/forecast
 
+	echo No outputs on github actions pipeline due to permission in reading in the files
 	printf "\n"
 
 # Run clean to clean output folder
