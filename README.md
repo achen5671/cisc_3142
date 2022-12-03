@@ -1,5 +1,6 @@
 # cisc_3142
 C++ Paradigm with Prof. Chuang
+http://www.sci.brooklyn.cuny.edu/~chuang/3142/
 
 **Assignment #1** <br />
 [Dropbox instruction here!](https://www.dropbox.com/s/r8obg7ijo424vhx/CISC%203142%20Class%20Exercise%201.docx?dl=0)
@@ -28,6 +29,10 @@ Move all programs to its own function and have one main method. Main method will
 **Assingment #9** <br />
 [Dropbox instruction here!](https://www.dropbox.com/s/mef2kw7g1c48rck/CISC%203142%20Class%20Exercise%209.docx?dl=0)
 
+**Assingment #10** <br />
+[Dropbox instruction here!](https://www.dropbox.com/s/z8tecyx3lwsqf1a/CISC%203142%20Class%20Exercise%2010.docx?dl=0)
+
+
 <!-- TOOD -->
 <!-- Add description for what each lab is doing -->
 | Command | Description |
@@ -37,4 +42,12 @@ Move all programs to its own function and have one main method. Main method will
 | make lab2 | Run lab 2. |
 | make lab3 | Run lab 3. |
 | make lab4 | Run lab 4. |
+| make lab5 | Run lab 5. |
+| make lab6 | Run lab 6. |
+| make lab7 | Run lab 7. |
+| make lab8 | Run lab 8. |
+| make lab9 | Run lab 9. |
+| make lab10 | Run lab 10. |
+
+
 | script -r script-mac-$(date +%F).log| Log terminal |
